@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Godzila</title>
+		<meta charset="utf-8">
+		<style>
+			body, html {
+				height: 100%;
+				margin: 0px;
+				font-family: "Comic Sans MS", cursive, sans-serif;
+			}
+	
+			.background-image {
+				background-image: url('./img/black_cat_eyes.jpg');
+				 filter: blur(10px);
+				 -webkit-filter: blur(11px); 
+				 height: 100%; 
+				 background-position: center;
+				 background-repeat: no-repeat;
+				 background-size: cover;
+			}
+	
+			.text {
+				background-color: rgb(0,0,0); 
+				background-color: rgba(0,0,0,0);
+				position: absolute;
+				top: 30%;
+				left: 51%;
+				transform: translate(-50%, -50%);
+				z-index: 2;
+				width: 80%;
+				padding: 20px;
+				text-align: center;
+			}
+	
+			.comic_pink {
+				font-family: "Comic Sans MS", cursive, sans-serif;
+				color: #fc03df;
+				text-align:center;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 60px;
+				margin-bottom: 60px;
+			}
+	
+			.shadow {
+				color: #fc03df;
+				text-shadow: 0px 2px 0px #faaaf1;
+			}
+	
+			.button1 {
+				width: 80px; 
+				height: 80px; 
+				border-style: none; 
+				color: black; 
+				border-radius: 50px; 
+				position: absolute; 
+				bottom: 52%; 
+				left: 29%;
+				z-index: 99;
+				-webkit-transition-duration: 0.4s;
+				transition-duration: 0.4s;
+				cursor: pointer;
+			}
+	
+			.button2 {
+				width: 80px; 
+				height: 80px; 
+				border-style: none; 
+				color: black; 
+				border-radius: 50px; 
+				position: absolute; 
+				bottom: 51%; 
+				left: 66%;
+				z-index: 99;
+				-webkit-transition-duration: 0.4s;
+				transition-duration: 0.4s;
+				cursor: pointer;			
+			}
+		
+			.button1:hover {
+				background-color: rgba(0,0,0,0.4);	
+			}
+	
+			.button2:hover {
+				background-color: rgba(0,0,0,0.4);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="background-image"></div>
+		<div class="text">
+			<h1 style="font-size: 55px;" class="comic_pink outset-silver-border shadow">I am black, soft and furry</h1>
+			<h2 style="font-size: 45px;" class="comic_pink shadow">and I am a cat</h2>
+			<h3 style="font-size: 35px;" class="comic_pink shadow">cat Godzila</h3>
+		</div>		
+		<a href="./psl_2.html"><div class="button1"></div></a>
+		<a href="./psl_3.html"><div class="button2"></div></a>
+	</body>	
+</html>
